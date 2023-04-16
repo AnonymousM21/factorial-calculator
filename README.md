@@ -6,6 +6,7 @@
 ## Features
 
 - Supports large numbers to be factorialized, above 22!
+- Tested upto 170! and works for both 32 and 64 bit computers.
 
 ## Algorithm:
 ```c
