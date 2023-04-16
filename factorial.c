@@ -26,6 +26,6 @@ int main(void) {
     for(; i >= 1; --i) {
         fact *= i;
     }
-    printf("%i! = %.9g", j, fact);
+    printf("%i! = %.9g\n", j, fact);
     return 0;
 }
