@@ -6,7 +6,7 @@
 
 int main(void) {
     int i, j;
-    double fact = 1;
+    long double fact = 1;
     // check if the entered value is -ve number and re-entering the value
     while(1) {
         printf("number to be factorilized : ");
@@ -26,6 +26,6 @@ int main(void) {
     for(; i >= 1; --i) {
         fact *= i;
     }
-    printf("%i! = %.9g\n", j, fact);
+    printf("%i! = %.9Lg\n", j, fact);
     return 0;
 }
